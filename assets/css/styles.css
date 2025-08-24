@@ -1,0 +1,49 @@
+:root {
+  --gold: #F6C453;
+  --ink: #1E293B;
+  --cream: #FFF7E6;
+  --basil: #3F8F5C;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: var(--cream);
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+header, footer {
+  background: var(--ink);
+  color: white;
+  padding: 1rem;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.btn, .cta {
+  background: var(--gold);
+  color: var(--ink);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn.secondary {
+  background: var(--basil);
+  color: white;
+}
+
+.hidden-visually {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
