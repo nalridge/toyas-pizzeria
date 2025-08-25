@@ -1,7 +1,7 @@
 Toya’s Pizzeria 🍕
 Author
 
-Toya Alridge
+Nataru Alridge
 
 Overview
 
